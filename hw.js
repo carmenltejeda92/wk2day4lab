@@ -60,13 +60,13 @@ change(20,50)
 
 
 //4.    Write a function that prints out how many bills you would recieve in change after paying a certain amount.  
-//Return in as large denominations as possible. Parameters should be amount paind and amount cost
+// Return in as large denominations as possible. Parameters should be amount paid and amount cost
 // let x be the amount of the item
 // let y be the bill the customer paid with
 // let z be the change the customer received 
-let z = 0
+// let z = 0
 
-function change(x, y){
+/*function change(x, y){
     let i = 0
     while (i < y - x){
         z += 4
@@ -76,13 +76,30 @@ console.log(z)
 }
 
 change(20,50)
+*/
 
-// for (let i = 0; i <= z; i++){
-
-// }
 
 
 // 5.   Write a program that uses console.log to print all the numbers from 1 to 100 with two exceptions. 
 //          1. For numbers divisible by 3, print "Fizz" instead of the number, and for numbers divisible by 5 (and not 3), print "Buzz" instead. 
 //          2. When you have that working, modify your program to print "FizzBuzz", for numbers that are divisible by both 3 and 5 (and still print "Fizz" or "Buzz" for numbers divisible by only one of those).
+
+
+for(let i = 0; i <=100; i++){
+    
+    if(i % 3 == 0 && i % 5 == 0){
+        console.log(i + ' FizzBuzz')
+    }else if(i % 5== 0 && i % 3 !== 0){
+        console.log(i + ' Buzz')
+    }else if(i % 3 == 0){
+        console.log(i + ' Fizz')
+    }else{
+        console.log(i)
+    }
+} 
+
+
+
+
+
 
