@@ -7,7 +7,7 @@
                 - If students get 55 or above: console log Not to good
                 - Any grade lower than 55 is Bad Grade But You'll Get Em Next Time*/
 
-/* function getGrade(x){
+function getGrade(x){
 if(x >= 80){
     console.log("You did a good job!")
 }else if (x >= 70){
@@ -21,13 +21,13 @@ if(x >= 80){
 }
 }
 
-getGrade(80) */
+getGrade(80) 
 
 
 
 // 2.   Write a function that prints out multiples of 10 up to a given input (argument)
 
-/*function countByTen(){
+function countByTen(){
 for(let i = 0; i <= 100; i = i + 10){
     console.log(i)
     if(i ==100){
@@ -36,7 +36,7 @@ for(let i = 0; i <= 100; i = i + 10){
 }
 }
 
-countByTen()*/
+countByTen()
 
 
 
@@ -45,7 +45,7 @@ countByTen()*/
 // let y be the bill being paid with
 // let z be the change the customer receives
 
-/*function change(x, y){
+function change(x, y){
     let z = 0
     let i = 0
     while (i < y - x){
@@ -56,27 +56,12 @@ console.log(z)
 }
 
 change(20,50)
-*/
+
 
 
 //4.    Write a function that prints out how many bills you would recieve in change after paying a certain amount.  
 // Return in as large denominations as possible. Parameters should be amount paid and amount cost
-// let x be the amount of the item
-// let y be the bill the customer paid with
-// let z be the change the customer received 
-// let z = 0
 
-/*function change(x, y){
-    let i = 0
-    while (i < y - x){
-        z += 4
-        i++
-    }
-console.log(z)
-}
-
-change(20,50)
-*/
 
 
 
