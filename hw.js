@@ -7,36 +7,36 @@
                 - If students get 55 or above: console log Not to good
                 - Any grade lower than 55 is Bad Grade But You'll Get Em Next Time*/
 
-function getGrade(x){
-if(x >= 80){
-    console.log("You did a good job!")
-}else if (x >= 70){
-    console.log("Keep trying")
-}else if (x >=60){
-    console.log("ehhhhh")
-}else if (x >=56){
-    console.log("Not too good")
-}else if(x <= 55){
-     console.log("Bad Grade but you'll get em next time!")
-}
-}
+// function getGrade(x){
+// if(x >= 80){
+//     console.log("You did a good job!")
+// }else if (x >= 70){
+//     console.log("Keep trying")
+// }else if (x >=60){
+//     console.log("ehhhhh")
+// }else if (x >=56){
+//     console.log("Not too good")
+// }else if(x <= 55){
+//      console.log("Bad Grade but you'll get em next time!")
+// }
+// }
 
-getGrade(80) 
+// getGrade(80) 
 
 
 
 // 2.   Write a function that prints out multiples of 10 up to a given input (argument)
 
-function countByTen(){
-for(let i = 0; i <= 100; i = i + 10){
-    console.log(i)
-    if(i ==100){
-        i = 100 
-    }
-}
-}
+//function countByTen(){
+// for(let i = 0; i <= 100; i = i + 10){
+//     console.log(i)
+//     if(i ==100){
+//         i = 100 
+//     }
+// }
+// }
 
-countByTen()
+// countByTen()
 
 
 
@@ -45,24 +45,46 @@ countByTen()
 // let y be the bill being paid with
 // let z be the change the customer receives
 
-function change(x, y){
-    let z = 0
-    let i = 0
-    while (i < y - x){
-        z += 4
-        i++
-    }
-console.log(z)
-}
+// function change(x, y){
+//     let z = 0
+//     let i = 0
+//     while (i < y - x){
+//         z += 4
+//         i++
+//     }
+// console.log(z)
+// }
 
-change(20,50)
+// change(20,50)
 
 
 
 //4.    Write a function that prints out how many bills you would recieve in change after paying a certain amount.  
 // Return in as large denominations as possible. Parameters should be amount paid and amount cost
+// let bills = [100, 50, 20, 10, 5, 1]
 
+// function change(total){
+// let custChange = new Array(bills.length).fill(0)
+// let counting = 0;      // variable to pass total into function
+// // looping through the change to give
+// while(total > 0 && counting < bills.length){
+//     // getting the bills to use 
+//     let bill = bills[counting]
+//     // figure out how many bills can be used
+//     let needed = Math.min(Math.floor(total/bill), 10)
+//     // reducing the total by the bills used
+//     total -= bill * needed
+//     //update the change
+//     custChange[counting] = needed
+//     // move to the next bill in the array
+//     counting++
+// }
 
+// // return the bills
+// return custChange
+// }
+
+// console.log(change(183))
 
 
 // 5.   Write a program that uses console.log to print all the numbers from 1 to 100 with two exceptions. 
@@ -70,18 +92,18 @@ change(20,50)
 //          2. When you have that working, modify your program to print "FizzBuzz", for numbers that are divisible by both 3 and 5 (and still print "Fizz" or "Buzz" for numbers divisible by only one of those).
 
 
-for(let i = 0; i <=100; i++){
+// for(let i = 0; i <=100; i++){
     
-    if(i % 3 == 0 && i % 5 == 0){
-        console.log(i + ' FizzBuzz')
-    }else if(i % 5== 0 && i % 3 !== 0){
-        console.log(i + ' Buzz')
-    }else if(i % 3 == 0){
-        console.log(i + ' Fizz')
-    }else{
-        console.log(i)
-    }
-} 
+//     if(i % 3 == 0 && i % 5 == 0){
+//         console.log(i + ' FizzBuzz')
+//     }else if(i % 5== 0 && i % 3 !== 0){
+//         console.log(i + ' Buzz')
+//     }else if(i % 3 == 0){
+//         console.log(i + ' Fizz')
+//     }else{
+//         console.log(i)
+//     }
+// } 
 
 
 
